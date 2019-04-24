@@ -6,8 +6,8 @@ def summon_captain_planet collections
   collections.map { |e| "#{e.capitalize}!"}
 end
 
-def long_planeteer_calls# code an argument here
-  # Your code here
+def long_planeteer_calls appel
+  appel.any? { |e| e.length > 4  }
 end
 
 def find_the_cheese# code an argument here
