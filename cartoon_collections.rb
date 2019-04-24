@@ -12,5 +12,7 @@ end
 
 def find_the_cheese cheesal
   cheese_types = ["cheddar", "gouda", "camembert"]
-  
+  cheesal.find { |e| 
+    e == cheese_types[0] || e == cheese_types[2] || e == cheese_types[2]
+  }
 end
